@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="column">
+      <div className="column app">
         <Header />
         <div className="row">
         <List />

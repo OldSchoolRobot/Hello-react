@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import Item from './Item';
 
 class List extends Component {
   render() {
     return (
         <div className="list">
-          List
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <button className="button full">Agregar elemento</button>
         </div>
     );
   }

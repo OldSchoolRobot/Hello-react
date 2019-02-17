@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ width: 100%;
+ height: 100%;
+}
+
+.app {
+ width: 100%;
+ height: 100%;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -6,4 +20,41 @@
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.list {
+  padding: 10px;
+  width: 30%;
+  height: 80%;
+  border: 1px solid #000;
+}
+
+.header {
+  padding: 10px;
+  width: 100%;
+  height: 20%;
+  border: 1px solid #000;
+}
+
+.detail {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #000;
+}
+
+.button {
+  background-color: transparent;
+  padding: 10px;
+  width: 30%;
+  height: 20%;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
 }
