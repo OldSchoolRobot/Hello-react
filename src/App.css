@@ -47,11 +47,25 @@ body {
   border: 1px solid #000;
 }
 
+.content {
+  width: 40%;
+}
+
+.mr {
+  margin-right: auto;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
 .button {
   background-color: transparent;
   padding: 10px;
-  width: 30%;
-  height: 20%;
 }
 
 .full {
